@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"c:/Users/14127/Desktop/Test/.claude/skills\")",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "WebSearch",
+      "Bash(npx skills *)",
+      "Bash(mkdir -p \"c:/Users/14127/Desktop/Test/docs/superpowers/specs\")",
+      "Bash(npm install *)",
+      "Bash(echo \"EXIT_CODE=$?\")",
+      "Bash(npx next *)",
+      "Bash(node ./node_modules/next/dist/bin/next build)",
+      "Bash(node -e \"console.log\\(require.resolve\\('next/package.json'\\)\\)\")",
+      "Bash(node -e \"const pkg = require\\('next/package.json'\\); console.log\\(pkg.version, pkg.bin\\)\")",
+      "Bash(mkdir -p \"c:/Users/14127/Desktop/Test/src/styles\" \"c:/Users/14127/Desktop/Test/src/app\")",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\14127\\Desktop\\Test\\.claude",
+      "c:\\Users\\14127\\Desktop\\Test\\docs\\superpowers",
+      "c:\\Users\\14127\\Desktop\\Test\\src\\styles"
+    ]
+  }
+}
