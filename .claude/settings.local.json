@@ -16,7 +16,9 @@
       "Bash(mkdir -p \"c:/Users/14127/Desktop/Test/src/styles\" \"c:/Users/14127/Desktop/Test/src/app\")",
       "Bash(git init *)",
       "Bash(git add *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Read(//c/Users/14127/.claude/plugins/cache/claude-plugins-official/superpowers/5.1.0/skills/requesting-code-review/**)",
+      "Bash(npx tsc *)"
     ],
     "additionalDirectories": [
       "c:\\Users\\14127\\Desktop\\Test\\.claude",
